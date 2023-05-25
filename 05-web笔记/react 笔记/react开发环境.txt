@@ -1,0 +1,23 @@
+一.React开发环境搭建。
+1. 安装node, 要求在14以上版本
+ 因为大家都学习过node,所以相信所有同学的电脑上面都已经安装了node,
+ 可以使用 node -v 查看一下版本号。
+
+2. 安装react脚手架
+  npm install -g create-react-app
+  或
+  cnpm install -g create-react-app
+
+安装cnpm：
+npm install cnpm -g --registry=https://registry.npmmirror.com
+
+二. 使用脚手架创建项目
+   npx create-react-app 符合标识符命名的项目名  --template typescript    
+   或   
+   create-react-app 符合标识符命名的项目名  --template typescript
+
+三.运行项目
+   保证命令窗口当前路径在项目目录下，执行命令: 
+   npm install
+   npm start  或 cnpm start
+   打开浏览器输入： http://localhost:3000    
